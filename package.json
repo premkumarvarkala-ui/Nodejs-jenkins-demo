@@ -1,0 +1,13 @@
+{
+  "name": "javascript-jenkins-demo",
+  "version": "1.0.0",
+  "description": "Sample JavaScript project for Jenkins CI pipeline",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "jest",
+    "build": "mkdir -p dist && cp src/app.js dist/app.js"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0"
+  }
+}
